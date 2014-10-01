@@ -1,0 +1,77 @@
+{
+  "hand": 
+    [
+      "distal phalange", 
+      "phalange", 
+      "proximal phalange",
+      "metacarpal",
+      "trapezium",
+      "trapezoid",
+      "capitate",
+      "hamate",
+      "scaphoid",
+      "lunate",
+      "triquetral",
+      "pisiform"
+    ],
+  "arm":
+    [
+      "radius",
+      "ulna",
+      "humerus",
+      "clavicle",
+      "scapula"
+    ],
+  "thorax":
+    [
+      "ribs",
+      "sternum",
+      "cervical",
+      "thoracic",
+      "lumbar",
+      "sacral",
+      "coccygeal"
+    ],
+    "cranial":
+    [
+      "frontal bone",
+      "parietal bone",
+      "occipital bone",
+      "temporal bone",
+      "sphenoid bone",
+      "temporal bone"
+    ],
+    "facial":
+    [
+      "inferior nasal concha",
+      "Lacrimal bone",
+      "mandible",
+      "maxilla",
+      "nasal bones",
+      "palatine bones",
+      "vomer",
+      "zygomatic bones"
+    ],
+    "leg":
+    [
+      "hip bone",
+      "femur",
+      "patella",
+      "tibia",
+      "fibula"
+    ],
+    "foot":
+    [
+      "talus",
+      "calcaneus",
+      "navicular",
+      "medial cuneiform bone",
+      "intermidiate cuneiform bone",
+      "lateral cuneiform bone",
+      "cuboid bone",
+      "metatarsus",
+      "proximal phalange",
+      "intermidiate phalange",
+      "distal phalange"
+    ]
+}
