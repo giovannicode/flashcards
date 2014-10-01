@@ -1,9 +1,11 @@
 angular.module('giosApp', [])
   .controller('listController', ['$scope', function($scope){
-   
+    
    $scope.todos = [
       {text:'learn angular', done:false}
       ];
+   
+   $scope.name = "what";
 
     $scope.addTodo = function(){
       $scope.todos.push({text:$scope.todoText, done:false});
@@ -26,12 +28,8 @@ angular.module('giosApp', [])
       });
     };
 
-   
-
   }])
   .config(function($interpolateProvider){
     $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
-  })
+  })   
 ;
-    
-

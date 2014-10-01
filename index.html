@@ -5,7 +5,6 @@
 <link href="css/todo.css" type="text/css" rel="stylesheet"/>
 <script src="js/jquery.js"></script>
 <script src="js/angular.js"></script>
-<script src="js/todo.js"></script>
 <script type="text/javascript">
 
 var bones;
@@ -14,14 +13,15 @@ var rand;
 </script>
 </head>
 <body>
-<div>
+<div ng-controller="listController">
   <select>
   </select>
-  <input id="card" type="text"/>
-  <button>Try another </button>
+  <input id="card" type="text" ng-model="name"/>
+  <button ng-bind="name">Try another </button>
+  <span ng-bind="name"></span>
 </div>
 <!--ANGULAR APP-->
-
+<script src="js/todo.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 
@@ -45,6 +45,7 @@ $(document).ready(function(){
   
     $("button").on('click', function(){ 
       rand = Math.floor(Math.random() * bones.length)
+      $('#card').trigger('change');
       $("#card").val(bones[rand])
     });
 
@@ -52,6 +53,6 @@ $(document).ready(function(){
 
 });
 </script>
-<script src="js/bootstrap.js"></scipt>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
